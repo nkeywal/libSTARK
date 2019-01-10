@@ -4,6 +4,7 @@
 #include "ALU.hpp"
 #include <algebraLib/BitExtract.hpp>
 #include <bitset>
+#include <iostream>
 
 //#include <algebraLib/SelectorSum.hpp>
 #define EXTDIM Algebra::ExtensionDegree
@@ -1789,10 +1790,10 @@ void ALU_ANSWER_Gadget::generateWitness(){
 		flag = false;
 		if (Algebra::one() == program_output)
 			program_output = pb_->val(inputs_.arg2_val_);
-		/*
-         * size_t a = mapFieldElementToInteger(0, EXTDIM, pb_->val(inputs_.arg2_val_));
-         * std::cout << "\n*** TIMESTEPS=" << max_timestep << " ANSWER=" << a << " (binary " << std::bitset<REGISTER_LENGTH>(a) << ")\n" << std::endl;
-         */
+		
+         size_t a = mapFieldElementToInteger(0, EXTDIM, pb_->val(inputs_.arg2_val_));
+         std::cout << "\n*** TIMESTEPS=" << max_timestep << " ANSWER=" << a << " (binary " << std::bitset<REGISTER_LENGTH>(a) << ")\n" << std::endl;
+         
 	}
 }
 
