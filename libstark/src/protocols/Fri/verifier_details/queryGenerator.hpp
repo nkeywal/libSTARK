@@ -2,7 +2,7 @@
 #define RS_IOPP_BIASED_DETAILS_QUERYGEN_HPP__
 
 #include "../common/common.hpp"
-#include "protocols/common/verifier.hpp"
+#include "../protocols/common/verifier.hpp"
 #include <algebraLib/FieldElement.hpp>
 #include <vector>
 

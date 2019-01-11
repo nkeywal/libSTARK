@@ -1,7 +1,7 @@
 #include "queryGenerator.hpp"
-#include "common/Infrastructure/Infrastructure.hpp"
-#include "common/Utils/ErrorHandling.hpp"
-#include "common/Utils/TaskReporting.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
+#include "../common/Utils/TaskReporting.hpp"
 #include <algebraLib/UnivariatePolynomialGeneral.hpp>
 #include <algebraLib/SubspacePolynomial.hpp>
 

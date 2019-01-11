@@ -1,8 +1,8 @@
 #ifndef RS_IOPP_BIASED_COMMON
 #define RS_IOPP_BIASED_COMMON
 
-#include "protocols/protocol.hpp"
-#include "protocols/common/queries.hpp"
+#include "../protocols/protocol.hpp"
+#include "../protocols/common/queries.hpp"
 
 #include <algebraLib/FieldElement.hpp>
 #include <vector>

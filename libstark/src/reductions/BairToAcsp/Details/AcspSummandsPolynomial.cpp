@@ -4,8 +4,8 @@ For more details see hpp file
 */
 
 #include "AcspSummandsPolynomial.hpp"
-#include "common/Infrastructure/Infrastructure.hpp"
-#include "common/Utils/ErrorHandling.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
 #include <exception>
 
 using Algebra::FieldElement;

@@ -17,7 +17,7 @@
 #define PERMUTATION_ROUTING_NET_HPP__
 
 #include "RoutingNetwork.hpp"
-#include "common/langCommon/Sequence.hpp"
+#include "../common/langCommon/Sequence.hpp"
 
 #include <stdlib.h>
 

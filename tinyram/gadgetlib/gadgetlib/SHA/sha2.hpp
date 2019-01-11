@@ -11,7 +11,7 @@
 #ifndef LIBSNARK_SHA2_INCLUDE_SHA2_GADGET_HPP_
 #define LIBSNARK_SHA2_INCLUDE_SHA2_GADGET_HPP_
 
-#include <gadgetlib/gadget.hpp>
+#include <../gadgetlib/gadget.hpp>
 #define SHA2RND 64
 #define TOY_SHA2_INCLUDE
 

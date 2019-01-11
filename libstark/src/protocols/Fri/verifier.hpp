@@ -3,8 +3,8 @@
 
 #include "verifier_details/queryGenerator.hpp"
 #include "common/common.hpp"
-#include "protocols/common/verifier.hpp"
-#include "common/Utils/specsPrint.hpp"
+#include "../../protocols/common/verifier.hpp"
+#include "../common/Utils/specsPrint.hpp"
 
 namespace libstark{
 namespace Protocols{

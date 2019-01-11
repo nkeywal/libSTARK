@@ -7,9 +7,9 @@
   /***********************************************************************************************/
 
 #include "BairToAcsp.hpp"
-#include "common/Infrastructure/Infrastructure.hpp"
-#include "common/Algebra/LinearSpace.hpp"
-#include "common/Utils/TaskReporting.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
+#include "../common/Algebra/LinearSpace.hpp"
+#include "../common/Utils/TaskReporting.hpp"
 #include "Details/witnessReduction.hpp"
 #include "Details/constraints.hpp"
 #include "Details/common.hpp"

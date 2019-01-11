@@ -7,7 +7,7 @@
 #include <algebraLib/FieldElement.hpp>
 #include <algebraLib/CircuitPolynomial.hpp>
 #include <algebraLib/variable.hpp>
-#include <gadgetlib/infrastructure.hpp>
+#include <../gadgetlib/infrastructure.hpp>
 
 
 namespace gadgetlib{

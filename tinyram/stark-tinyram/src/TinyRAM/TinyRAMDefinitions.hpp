@@ -10,7 +10,7 @@
 #include <bitset>
 #include <fstream>
 #include <sstream>
-#include <common/Infrastructure/Infrastructure.hpp>
+#include <../common/Infrastructure/Infrastructure.hpp>
 
 #define REGISTERS_NUMBER 15
 #define REGISTER_LENGTH 16

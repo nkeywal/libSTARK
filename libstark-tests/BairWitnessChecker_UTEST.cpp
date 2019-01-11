@@ -1,6 +1,6 @@
 #include "BairWitnessChecker_UTEST.hpp"
 #include "lightCircLib/lightCircPoly.hpp"
-#include <languages/Bair/BairWitnessChecker.hpp>
+#include <../languages/Bair/BairWitnessChecker.hpp>
 
 #include <gtest/gtest.h>
 

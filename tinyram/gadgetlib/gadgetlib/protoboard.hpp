@@ -15,10 +15,10 @@
 #include <memory>
 #include <map>
 #include <algebraLib/variable.hpp>
-#include <gadgetlib/common_use.hpp>
-#include <gadgetlib/constraint.hpp>
-#include <gadgetlib/infrastructure.hpp>
-#include <algebraLib/CircuitPolynomial.hpp>
+#include <../gadgetlib/common_use.hpp>
+#include <../gadgetlib/constraint.hpp>
+#include <../gadgetlib/infrastructure.hpp>
+#include <../algebraLib/CircuitPolynomial.hpp>
 
 #define ASSERT_CONSTRAINTS_SATISFIED(pb) \
     ASSERT_TRUE(pb->isSatisfied(PrintOptions::DBG_PRINT_IF_NOT_SATISFIED))

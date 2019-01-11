@@ -1,6 +1,6 @@
 #include "MerkleCommitment.hpp"
-#include "common/Infrastructure/Infrastructure.hpp"
-#include "common/Utils/ErrorHandling.hpp"
+#include "../../common/Infrastructure/Infrastructure.hpp"
+#include "../../common/Utils/ErrorHandling.hpp"
 #include <omp.h>
 #include <string>
 #include <algebraLib/FieldElement.hpp>

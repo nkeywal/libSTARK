@@ -25,7 +25,7 @@
 
 #include "BenesNetwork.hpp"
 #include "MatrixNetwork.hpp"
-#include "common/Infrastructure/Infrastructure.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
 
 #include <vector>
 #include <set>

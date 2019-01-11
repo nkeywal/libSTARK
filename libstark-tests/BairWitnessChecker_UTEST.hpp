@@ -1,8 +1,8 @@
 #ifndef Bair_UTEST_HPP
 #define Bair_UTEST_HPP
 
-#include <languages/Bair/BairInstance.hpp>
-#include <languages/Bair/BairWitness.hpp>
+#include <../languages/Bair/BairInstance.hpp>
+#include <../languages/Bair/BairWitness.hpp>
 
 namespace PCP_UTESTS{
 

@@ -1,8 +1,8 @@
 #include "verifier.hpp"
-#include "protocols/common/CryptoCommitment/MerkleCommitment.hpp"
-#include "common/Utils/TaskReporting.hpp"
-#include "common/Infrastructure/Infrastructure.hpp"
-#include "common/Utils/ErrorHandling.hpp"
+#include "../protocols/common/CryptoCommitment/MerkleCommitment.hpp"
+#include "../common/Utils/TaskReporting.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
 
 namespace libstark{
 namespace Protocols{

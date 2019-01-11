@@ -7,10 +7,10 @@ Implementation of Protoboard, a "memory manager" for building arithmetic constra
 * @copyright  MIT license (see LICENSE file)
 *****************************************************************************/
 
-#include <gadgetlib/protoboard.hpp>
+#include <../gadgetlib/protoboard.hpp>
 #include <algebraLib/variable_operators.hpp>
 #include <algebraLib/variable.hpp>
-
+#include <iostream>
 
 namespace gadgetlib {
 
@@ -43,6 +43,8 @@ const Algebra::FElem Protoboard::val(const Algebra::LinearCombination& lc) const
 void Protoboard::addGeneralConstraint(const Polynomial& a,
 										const ::std::string& name,
 										Opcode opcode){
+	::std::cout << "addGeneralConstraint "  << name << " " << a.asString() << "\n";
+
 	if (opcode == Opcode::MEMORY){
 		addMemoryConstraint(a, name);
 		return;

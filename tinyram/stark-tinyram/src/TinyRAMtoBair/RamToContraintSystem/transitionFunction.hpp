@@ -1,10 +1,10 @@
 #ifndef _COMMON_CONSTRAINTSLIB2_RAMTOCOSTRAINTSYSTEM_TRANSITIONFUNCTION_HPP_
 #define _COMMON_CONSTRAINTSLIB2_RAMTOCOSTRAINTSYSTEM_TRANSITIONFUNCTION_HPP_
 
-#include <gadgetlib/gadget.hpp>
-#include <gadgetlib/protoboard.hpp>
+#include <../gadgetlib/gadget.hpp>
+#include <../gadgetlib/protoboard.hpp>
 #include "generalPurpose.hpp"
-#include "TinyRAM/TinyRAMInstance.hpp"
+#include "../TinyRAM/TinyRAMInstance.hpp"
 using gadgetlib::Gadget;
 using gadgetlib::ProtoboardPtr;
 

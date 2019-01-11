@@ -1,11 +1,11 @@
 #include <gtest/gtest.h>
 #include <memory>
-#include <gadgetlib/protoboard.hpp>
-#include <gadgetlib/gadget.hpp>
-#include <TinyRAMtoBair/RamToContraintSystem/generalPurpose.hpp>
-#include <TinyRAMtoBair/RamToContraintSystem/transitionFunction.hpp>
-#include <TinyRAM/TinyRAMDefinitions.hpp>
-#include <TinyRAM/TinyRAMInstance.hpp>
+#include <../gadgetlib/protoboard.hpp>
+#include <../gadgetlib/gadget.hpp>
+#include <../TinyRAMtoBair/RamToContraintSystem/generalPurpose.hpp>
+#include <../TinyRAMtoBair/RamToContraintSystem/transitionFunction.hpp>
+#include <../TinyRAM/TinyRAMDefinitions.hpp>
+#include <../TinyRAM/TinyRAMInstance.hpp>
 using namespace gadgetlib;
 
 

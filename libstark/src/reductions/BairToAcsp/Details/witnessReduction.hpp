@@ -3,9 +3,9 @@
 
 #include "common.hpp"
 #include "commonMappings.hpp"
-#include "languages/Acsp/AcspWitness.hpp"
-#include "languages/Bair/BairWitness.hpp"
-#include "languages/Bair/BairInstance.hpp"
+#include "../languages/Acsp/AcspWitness.hpp"
+#include "../languages/Bair/BairWitness.hpp"
+#include "../languages/Bair/BairInstance.hpp"
 #include "witnessMappings.hpp"
 
 #include <algebraLib/UnivariatePolynomialGeneral.hpp>

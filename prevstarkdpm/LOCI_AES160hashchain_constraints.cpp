@@ -1,8 +1,8 @@
 
     #include "LOCI_AES160hashchain_instance.hpp"
     #include <algebraLib/BitExtract.hpp>
-    #include "languages/Bair/BairInstance.hpp"
-    #include "languages/Bair/BairWitness.hpp"
+    #include "../languages/Bair/BairInstance.hpp"
+    #include "../languages/Bair/BairWitness.hpp"
     
     
     #define ttgenRand (Algebra::one())

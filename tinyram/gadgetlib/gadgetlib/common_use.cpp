@@ -1,5 +1,5 @@
-#include <gadgetlib/common_use.hpp>
-#include <gadgetlib/infrastructure.hpp>
+#include <../gadgetlib/common_use.hpp>
+#include <../gadgetlib/infrastructure.hpp>
 #include <algebraLib/variable_operators.hpp>
 #include <stdint.h>
 

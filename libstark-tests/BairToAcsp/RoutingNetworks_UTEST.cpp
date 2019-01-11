@@ -1,14 +1,14 @@
-#include <reductions/BairToAcsp/Routing/TandemNetwork.hpp>
-#include <reductions/BairToAcsp/Routing/MatrixNetwork.hpp>
-#include <reductions/BairToAcsp/Routing/BenesNetwork.hpp>
-#include <reductions/BairToAcsp/Routing/FoldNetwork.hpp>
-#include <reductions/BairToAcsp/Routing/BitReverseButterfliesNetwork.hpp>
-#include <reductions/BairToAcsp/Routing/BtrflyBasedPermutation.hpp>
-#include <reductions/BairToAcsp/Routing/DeBruijnPermutationNet.hpp>
-#include <reductions/BairToAcsp/Routing/LongDeBruijnPermutationNet.hpp>
-#include <reductions/BairToAcsp/Routing/SymmetricDeBruijnNetwork.hpp>
-#include <reductions/BairToAcsp/Routing/LongSymmetricDeBruijnNetwork.hpp>
-#include <common/Infrastructure/Infrastructure.hpp>
+#include <../reductions/BairToAcsp/Routing/TandemNetwork.hpp>
+#include <../reductions/BairToAcsp/Routing/MatrixNetwork.hpp>
+#include <../reductions/BairToAcsp/Routing/BenesNetwork.hpp>
+#include <../reductions/BairToAcsp/Routing/FoldNetwork.hpp>
+#include <../reductions/BairToAcsp/Routing/BitReverseButterfliesNetwork.hpp>
+#include <../reductions/BairToAcsp/Routing/BtrflyBasedPermutation.hpp>
+#include <../reductions/BairToAcsp/Routing/DeBruijnPermutationNet.hpp>
+#include <../reductions/BairToAcsp/Routing/LongDeBruijnPermutationNet.hpp>
+#include <../reductions/BairToAcsp/Routing/SymmetricDeBruijnNetwork.hpp>
+#include <../reductions/BairToAcsp/Routing/LongSymmetricDeBruijnNetwork.hpp>
+#include <../common/Infrastructure/Infrastructure.hpp>
 
 #include <gtest/gtest.h>
 #include <vector>

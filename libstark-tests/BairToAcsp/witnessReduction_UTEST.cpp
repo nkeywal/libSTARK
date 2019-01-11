@@ -1,6 +1,6 @@
 #include "BairWitnessChecker_UTEST.hpp"
-#include <reductions/BairToAcsp/Details/witnessReduction.hpp>
-#include <reductions/BairToAcsp/Routing/LongSymmetricDeBruijnNetwork.hpp>
+#include <../reductions/BairToAcsp/Details/witnessReduction.hpp>
+#include <../reductions/BairToAcsp/Routing/LongSymmetricDeBruijnNetwork.hpp>
 
 #include <gtest/gtest.h>
 

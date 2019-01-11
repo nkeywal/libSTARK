@@ -1,7 +1,7 @@
 #include "BairWitnessChecker_UTEST.hpp"
-#include <reductions/BairToAcsp/Details/neighborsConstructor.hpp>
-#include <reductions/BairToAcsp/Details/witnessMappings.hpp>
-#include <common/Utils/TaskReporting.hpp>
+#include <../reductions/BairToAcsp/Details/neighborsConstructor.hpp>
+#include <../reductions/BairToAcsp/Details/witnessMappings.hpp>
+#include <../common/Utils/TaskReporting.hpp>
 
 #include <gtest/gtest.h>
 

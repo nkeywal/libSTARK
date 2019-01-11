@@ -16,7 +16,7 @@
 
 #include "PermutationRoutingNet.hpp"
 #include "TandemNetwork.hpp"
-#include "common/langCommon/Sequence.hpp"
+#include "../common/langCommon/Sequence.hpp"
 
 namespace libstark{
 namespace BairToAcsp{

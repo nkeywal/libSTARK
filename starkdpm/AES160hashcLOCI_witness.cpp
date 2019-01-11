@@ -1,5 +1,5 @@
 #include "AES160hashcLOCI_instance.hpp"
-#include "common/Utils/ErrorHandling.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
 
 namespace stark_dpm{
 namespace ACSP_FOR_AES160hashcLOCI{

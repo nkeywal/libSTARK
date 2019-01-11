@@ -1,8 +1,8 @@
 #ifndef __ACSP_FOR_AES160LOCI_HPP__
 #define __ACSP_FOR_AES160LOCI_HPP__
 
-#include "languages/Bair/BairInstance.hpp"
-#include "languages/Bair/BairWitness.hpp"
+#include "../languages/Bair/BairInstance.hpp"
+#include "../languages/Bair/BairWitness.hpp"
 
 #include <algebraLib/BitExtract.hpp>
 

@@ -1,6 +1,6 @@
 #include "DeBruijnPermutationNet.hpp"
 
-#include "common/Infrastructure/Infrastructure.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
 
 namespace libstark{
 namespace BairToAcsp{

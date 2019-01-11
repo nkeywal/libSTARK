@@ -1,6 +1,6 @@
 #include "lightCircLib/lightCircPoly.hpp"
-#include <reductions/BairToAcsp/BairToAcsp.hpp>
-#include <reductions/BairToAcsp/Details/AcspSummandsPolynomial.hpp>
+#include <../reductions/BairToAcsp/BairToAcsp.hpp>
+#include <../reductions/BairToAcsp/Details/AcspSummandsPolynomial.hpp>
 #include <algebraLib/FieldElement.hpp>
 #include <gtest/gtest.h>
 

@@ -1,9 +1,9 @@
 #include "prover.hpp"
 
-#include "common/Utils/ErrorHandling.hpp"
-#include "common/Utils/TaskReporting.hpp"
-#include "protocols/Fri/prover.hpp"
-#include "reductions/BairToAcsp/BairToAcsp.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
+#include "../common/Utils/TaskReporting.hpp"
+#include "../../protocols/Fri/prover.hpp"
+#include "../reductions/BairToAcsp/BairToAcsp.hpp"
 
 #include <set>
 #if __GNUG__

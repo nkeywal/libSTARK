@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
-#include <gadgetlib/protoboard.hpp>
-#include <TinyRAM/TinyRAMDefinitions.hpp>
-#include <TinyRAMtoBair/RamToContraintSystem/transitionFunction.hpp>
+#include <../gadgetlib/protoboard.hpp>
+#include <../TinyRAM/TinyRAMDefinitions.hpp>
+#include <../TinyRAMtoBair/RamToContraintSystem/transitionFunction.hpp>
 
 using namespace gadgetlib;
 

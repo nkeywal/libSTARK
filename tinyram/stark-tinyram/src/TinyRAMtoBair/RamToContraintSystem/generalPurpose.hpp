@@ -2,8 +2,8 @@
 #define CONSTARINTSLIB2_GENERAL_PURPOSE_HPP_
 
 #include <algebraLib/variable.hpp>
-#include <gadgetlib/protoboard.hpp>
-#include <gadgetlib/infrastructure.hpp>
+#include <../gadgetlib/protoboard.hpp>
+#include <../gadgetlib/infrastructure.hpp>
 
 using namespace Algebra;
 using namespace gadgetlib;

@@ -1,7 +1,7 @@
 #include "BairWitnessChecker_UTEST.hpp"
-#include <languages/Acsp/AcspWitnessChecker.hpp>
-#include <reductions/BairToAcsp/Details/witnessReduction.hpp>
-#include <reductions/BairToAcsp/BairToAcsp.hpp>
+#include <../languages/Acsp/AcspWitnessChecker.hpp>
+#include <../reductions/BairToAcsp/Details/witnessReduction.hpp>
+#include <../reductions/BairToAcsp/BairToAcsp.hpp>
 #include <gtest/gtest.h>
 namespace{
 

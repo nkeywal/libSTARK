@@ -39,8 +39,8 @@
 #include <vector>
 #include <algebraLib/variable.hpp>
 #include <algebraLib/CircuitPolynomial.hpp>
-#include <gadgetlib/protoboard.hpp>
-#include <gadgetlib/infrastructure.hpp>
+#include <../gadgetlib/protoboard.hpp>
+#include <../gadgetlib/infrastructure.hpp>
 #include "gadgetMacros.hpp"
 
 namespace gadgetlib {

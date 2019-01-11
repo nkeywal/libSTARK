@@ -1,9 +1,9 @@
 #include <gtest/gtest.h>
 #include <memory>
-#include <TinyRAMtoBair/RamToContraintSystem/traceConsistency.hpp>
-#include <TinyRAMtoBair/RamToContraintSystem/generalPurpose.hpp>
-#include <TinyRAM/TinyRAMDefinitions.hpp>
-#include <TinyRAM/TinyRAMInstance.hpp>
+#include <../TinyRAMtoBair/RamToContraintSystem/traceConsistency.hpp>
+#include <../TinyRAMtoBair/RamToContraintSystem/generalPurpose.hpp>
+#include <../TinyRAM/TinyRAMDefinitions.hpp>
+#include <../TinyRAM/TinyRAMInstance.hpp>
 
 
 

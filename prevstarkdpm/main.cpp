@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include <regex>
-#include <protocols/protocol.hpp>
+#include <../protocols/protocol.hpp>
 #include "LOCI_AES160hashchain.hpp"
 
 using namespace stark_dpm;

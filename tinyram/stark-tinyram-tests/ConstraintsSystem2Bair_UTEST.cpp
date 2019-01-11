@@ -1,18 +1,18 @@
 #include <gtest/gtest.h>
-#include <gadgetlib/protoboard.hpp>
+#include <../gadgetlib/protoboard.hpp>
 #include <fstream>
-#include <TinyRAM/TinyRAMDefinitions.hpp>
-#include <TinyRAM/TinyRAMInstance.hpp>
+#include <../TinyRAM/TinyRAMDefinitions.hpp>
+#include <../TinyRAM/TinyRAMInstance.hpp>
 
-#include <TinyRAMtoBair/ConstraintSystemToBair/cs2Bair.hpp>
-#include <languages/Bair/BairInstance.hpp>
-#include <languages/Bair/BairWitness.hpp>
-#include <languages/Bair/BairWitnessChecker.hpp>
-#include <languages/Acsp/AcspWitnessChecker.hpp>
-#include <reductions/BairToAcsp/BairToAcsp.hpp>
-#include <TinyRAMtoBair/RamToContraintSystem/ALU.hpp> //for prngseed, remove later
-#include "protocols/Ali/verifier.hpp"
-#include "protocols/Ali/prover.hpp"
+#include <../TinyRAMtoBair/ConstraintSystemToBair/cs2Bair.hpp>
+#include <../languages/Bair/BairInstance.hpp>
+#include <../languages/Bair/BairWitness.hpp>
+#include <../languages/Bair/BairWitnessChecker.hpp>
+#include <../languages/Acsp/AcspWitnessChecker.hpp>
+#include <../reductions/BairToAcsp/BairToAcsp.hpp>
+#include <../TinyRAMtoBair/RamToContraintSystem/ALU.hpp> //for prngseed, remove later
+#include "../protocols/Ali/verifier.hpp"
+#include "../protocols/Ali/prover.hpp"
 
 #define EXTDIM 64
 

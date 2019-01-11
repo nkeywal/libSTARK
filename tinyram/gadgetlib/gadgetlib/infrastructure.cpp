@@ -7,7 +7,7 @@ Common functionality needed by many components.
 * @copyright  MIT license (see LICENSE file)
 *****************************************************************************/
 
-#include <gadgetlib/infrastructure.hpp>
+#include <../gadgetlib/infrastructure.hpp>
 
 #include <iostream>
 #include <cassert>

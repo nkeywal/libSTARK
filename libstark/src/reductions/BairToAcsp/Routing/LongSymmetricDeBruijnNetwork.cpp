@@ -1,5 +1,5 @@
 #include "LongSymmetricDeBruijnNetwork.hpp"
-#include "common/Infrastructure/Infrastructure.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
 
 #include <cassert>
 

@@ -1,7 +1,7 @@
 #include "LinearSpace.hpp"
 #include "algebraLib/UnivariatePolynomialGeneral.hpp"
 #include "algebraLib/SubspacePolynomial.hpp"
-#include "common/Infrastructure/Infrastructure.hpp"
+#include "../../common/Infrastructure/Infrastructure.hpp"
 #include <omp.h>
 
 namespace Algebra{

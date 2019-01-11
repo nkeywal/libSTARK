@@ -1,5 +1,5 @@
 #include "prover.hpp"
-#include "common/Utils/TaskReporting.hpp"
+#include "../common/Utils/TaskReporting.hpp"
 #include "algebraLib/SubspacePolynomial.hpp"
 
 namespace libstark{

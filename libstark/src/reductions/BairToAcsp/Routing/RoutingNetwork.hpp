@@ -17,8 +17,8 @@
 #define ROUTING_NETWORK_HPP__
 
 #include <stdint.h>
-#include "common/Infrastructure/Infrastructure.hpp"
-#include "common/Utils/ErrorHandling.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
 
 namespace libstark{
 namespace BairToAcsp{

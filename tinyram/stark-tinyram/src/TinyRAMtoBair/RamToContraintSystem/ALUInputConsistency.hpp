@@ -1,10 +1,10 @@
 #ifndef ALU_INPUT_CONSISTENCY_HPP
 #define ALU_INPUT_CONSISTENCY_HPP
 
-#include <gadgetlib/gadget.hpp>
+#include <../gadgetlib/gadget.hpp>
 #include <algebraLib/CircuitPolynomial.hpp>
 #include "generalPurpose.hpp"
-#include "TinyRAM/TinyRAMInstance.hpp"
+#include "../TinyRAM/TinyRAMInstance.hpp"
 
 using namespace gadgetlib;
 

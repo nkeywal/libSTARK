@@ -1,9 +1,9 @@
 #include <gtest/gtest.h>
 #include <memory>
-#include <gadgetlib/protoboard.hpp>
-#include <TinyRAMtoBair/RamToContraintSystem/ALU.hpp>
-#include <TinyRAM/TinyRAMDefinitions.hpp>
-#include <TinyRAM/TinyRAMInstance.hpp>
+#include <../gadgetlib/protoboard.hpp>
+#include <../TinyRAMtoBair/RamToContraintSystem/ALU.hpp>
+#include <../TinyRAM/TinyRAMDefinitions.hpp>
+#include <../TinyRAM/TinyRAMInstance.hpp>
 
 #define ROUNDS 10
 #define BitsPerFElem Algebra::ExtensionDegree 

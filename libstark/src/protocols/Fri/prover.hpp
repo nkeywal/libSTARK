@@ -2,7 +2,7 @@
 #define RS_IOPP_BIASED_PROVER_HPP__
 
 #include "common/common.hpp"
-#include "protocols/common/proofs.hpp"
+#include "../../protocols/common/proofs.hpp"
 
 #include <algebraLib/PolynomialInterface.hpp>
 

@@ -1,15 +1,15 @@
 #ifndef Ali_VERIFIER_HPP__
 #define Ali_VERIFIER_HPP__
 
-#include "protocols/protocol.hpp"
+#include "../protocols/protocol.hpp"
 #include "common_details/common.hpp"
-#include "languages/Acsp/AcspInstance.hpp"
-#include "languages/Bair/BairInstance.hpp"
+#include "../languages/Acsp/AcspInstance.hpp"
+#include "../languages/Bair/BairInstance.hpp"
 
 #include "verifier_details/queriesGen.hpp"
-#include "protocols/Fri/verifier.hpp"
-#include "common/Utils/TaskReporting.hpp"
-#include "common/Utils/specsPrint.hpp"
+#include "../protocols/Fri/verifier.hpp"
+#include "../../common/Utils/TaskReporting.hpp"
+#include "../../common/Utils/specsPrint.hpp"
 
 #include <vector>
 #include <functional>

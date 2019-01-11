@@ -9,7 +9,7 @@
 #define _COMMON_BairToAcsp_COMMONINFORMATION_HPP_
 
 #include "commonDeffinitions.hpp"
-#include "common/Utils/ErrorHandling.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
 
 namespace libstark{
 namespace BairToAcsp{

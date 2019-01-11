@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include <protocols/protocol.hpp>
+#include <../protocols/protocol.hpp>
 
 #include "TinyRAMtoBair/ConstraintSystemToBair/cs2Bair.hpp"
 #include "TinyRAMtoBair/RamToContraintSystem/ALU.hpp"

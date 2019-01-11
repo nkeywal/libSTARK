@@ -12,10 +12,10 @@
 #ifndef __Bair_TO_Acsp_HPP
 #define __Bair_TO_Acsp_HPP
 
-#include "languages/Bair/BairInstance.hpp"
-#include "languages/Bair/BairWitness.hpp"
-#include "languages/Acsp/AcspInstance.hpp"
-#include "languages/Acsp/AcspWitness.hpp"
+#include "../languages/Bair/BairInstance.hpp"
+#include "../languages/Bair/BairWitness.hpp"
+#include "../languages/Acsp/AcspInstance.hpp"
+#include "../languages/Acsp/AcspWitness.hpp"
 
 #include <memory>
 

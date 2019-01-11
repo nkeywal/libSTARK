@@ -1,10 +1,10 @@
 #include <gtest/gtest.h>
 #include <memory>
-#include <gadgetlib/protoboard.hpp>
-#include <gadgetlib/gadget.hpp>
-#include <TinyRAMtoBair/RamToContraintSystem/generalPurpose.hpp>
-#include <TinyRAMtoBair/RamToContraintSystem/ALUInputConsistency.hpp>
-#include <TinyRAM/TinyRAMDefinitions.hpp>
+#include <../gadgetlib/protoboard.hpp>
+#include <../gadgetlib/gadget.hpp>
+#include <../TinyRAMtoBair/RamToContraintSystem/generalPurpose.hpp>
+#include <../TinyRAMtoBair/RamToContraintSystem/ALUInputConsistency.hpp>
+#include <../TinyRAM/TinyRAMDefinitions.hpp>
 
 #define ROUNDS 10
 

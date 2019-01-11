@@ -1,5 +1,5 @@
 #include "LOCI_AES160hashchain_instance.hpp"
-#include "common/Utils/ErrorHandling.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
 
 namespace stark_dpm{
 namespace ACSP_FOR_AES160LOCIhashchain{

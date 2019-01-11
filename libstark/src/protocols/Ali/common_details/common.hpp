@@ -1,10 +1,10 @@
 #ifndef __PARTYSTATE_HPP__
 #define __PARTYSTATE_HPP__
 
-#include "protocols/common/CryptoCommitment/MerkleCommitment.hpp"
-#include "protocols/protocol.hpp"
-#include "protocols/common/queries.hpp"
-#include "languages/Acsp/AcspInstance.hpp"
+#include "../protocols/common/CryptoCommitment/MerkleCommitment.hpp"
+#include "../protocols/protocol.hpp"
+#include "../protocols/common/queries.hpp"
+#include "../languages/Acsp/AcspInstance.hpp"
 #include <algebraLib/FieldElement.hpp>
 #include <algebraLib/PolynomialDegree.hpp>
 #include <vector>

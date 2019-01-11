@@ -2,7 +2,7 @@
 #define PROTOCOLS_COMMON_PROOFS_HPP__
 
 #include "CryptoCommitment/MerkleCommitment.hpp"
-#include "common/Infrastructure/Infrastructure.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
 #include "queries.hpp"
 #include <algebraLib/FieldElement.hpp>
 #include <algebraLib/UnivariatePolynomialGeneral.hpp>

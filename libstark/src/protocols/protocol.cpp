@@ -1,12 +1,12 @@
 #include "protocol.hpp"
-#include "common/Utils/TaskReporting.hpp"
-#include "common/Utils/Timing.hpp"
-#include "common/Utils/specsPrint.hpp"
-#include "languages/Acsp/AcspWitnessChecker.hpp"
-#include "languages/Bair/BairWitnessChecker.hpp"
-#include "protocols/Ali/prover.hpp"
-#include "protocols/Ali/verifier.hpp"
-#include "reductions/BairToAcsp/BairToAcsp.hpp"
+#include "../common/Utils/TaskReporting.hpp"
+#include "../common/Utils/Timing.hpp"
+#include "../common/Utils/specsPrint.hpp"
+#include "../languages/Acsp/AcspWitnessChecker.hpp"
+#include "../languages/Bair/BairWitnessChecker.hpp"
+#include "../../protocols/Ali/prover.hpp"
+#include "../../protocols/Ali/verifier.hpp"
+#include "../reductions/BairToAcsp/BairToAcsp.hpp"
 
 #include <iostream>
 #include <thread>

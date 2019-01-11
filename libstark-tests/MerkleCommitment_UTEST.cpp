@@ -1,4 +1,4 @@
-#include <protocols/common/CryptoCommitment/MerkleCommitment.hpp>
+#include <../protocols/common/CryptoCommitment/MerkleCommitment.hpp>
 #include <gtest/gtest.h>
 #include <vector>
 #include <stdint.h>

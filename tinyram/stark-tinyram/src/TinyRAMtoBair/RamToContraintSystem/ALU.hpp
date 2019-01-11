@@ -1,9 +1,9 @@
 #ifndef _RAMTOCOSTRAINTSYSTEM_ALU_HPP_
 #define _RAMTOCOSTRAINTSYSTEM_ALU_HPP_
 #include "generalPurpose.hpp"
-#include <gadgetlib/gadget.hpp>
-#include <gadgetlib/infrastructure.hpp>
-#include "TinyRAM/TinyRAMInstance.hpp"
+#include <../gadgetlib/gadget.hpp>
+#include <../gadgetlib/infrastructure.hpp>
+#include "../TinyRAM/TinyRAMInstance.hpp"
 
 
 using namespace gadgetlib;

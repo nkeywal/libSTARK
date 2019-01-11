@@ -1,11 +1,11 @@
 #ifndef LIGHT_CIRCUIT_GATES_HPP_
 #define LIGHT_CIRCUIT_GATES_HPP_
 
-#include "common/Infrastructure/Infrastructure.hpp"
-#include "common/Utils/ErrorHandling.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
 #include <algebraLib/FieldElement.hpp>
 #include <algebraLib/PolynomialDegree.hpp>
-#include "common/langCommon/Sequence.hpp"
+#include "../common/langCommon/Sequence.hpp"
 
 #include <vector>
 #include <map>

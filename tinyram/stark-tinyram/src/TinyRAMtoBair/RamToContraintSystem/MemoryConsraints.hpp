@@ -1,9 +1,9 @@
 #ifndef _COMMON_CONSTRAINTSLIB2_RAMTOCOSTRAINTSYSTEM_MEMORY_CONSTRAINTS_HPP_
 #define _COMMON_CONSTRAINTSLIB2_RAMTOCOSTRAINTSYSTEM_MEMORY_CONSTRAINTS_HPP_
 
-#include <gadgetlib/gadget.hpp>
-#include <gadgetlib/protoboard.hpp>
-#include "TinyRAMtoBair/RamToContraintSystem/generalPurpose.hpp"
+#include <../gadgetlib/gadget.hpp>
+#include <../gadgetlib/protoboard.hpp>
+#include "../TinyRAMtoBair/RamToContraintSystem/generalPurpose.hpp"
 
 
 

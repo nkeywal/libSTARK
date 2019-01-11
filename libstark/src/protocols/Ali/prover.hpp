@@ -1,17 +1,17 @@
 #ifndef Ali_PROVER_HPP__
 #define Ali_PROVER_HPP__
 
-#include "protocols/protocol.hpp"
+#include "../protocols/protocol.hpp"
 #include "common_details/common.hpp"
 
-#include "languages/Acsp/AcspInstance.hpp"
-#include "languages/Acsp/AcspWitness.hpp"
+#include "../languages/Acsp/AcspInstance.hpp"
+#include "../languages/Acsp/AcspWitness.hpp"
 
-#include "languages/Bair/BairInstance.hpp"
+#include "../languages/Bair/BairInstance.hpp"
 
-#include "protocols/common/proofs.hpp"
-#include "protocols/Fri/prover.hpp"
-#include "common/Utils/TaskReporting.hpp"
+#include "../protocols/common/proofs.hpp"
+#include "../protocols/Fri/prover.hpp"
+#include "../../common/Utils/TaskReporting.hpp"
 
 #include <algebraLib/novelFFT.hpp>
 #include <functional>

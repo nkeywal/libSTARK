@@ -1,8 +1,8 @@
 #ifndef PROTOCOLS_COMMON_VERIFIER_HPP__
 #define PROTOCOLS_COMMON_VERIFIER_HPP__
 
-#include "protocols/protocol.hpp"
-#include "protocols/common/queries.hpp"
+#include "../protocols/protocol.hpp"
+#include "../protocols/common/queries.hpp"
 #include "CryptoCommitment/MerkleCommitment.hpp"
 #include <algebraLib/FieldElement.hpp>
 #include <map>

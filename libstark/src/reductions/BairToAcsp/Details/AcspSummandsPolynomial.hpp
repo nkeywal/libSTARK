@@ -1,7 +1,7 @@
 
 #include <algebraLib/FieldElement.hpp>
 #include "algebraLib/SubspacePolynomial.hpp"
-#include "common/Algebra/ShiftedSubspacePolynomial.hpp"
+#include "../common/Algebra/ShiftedSubspacePolynomial.hpp"
 
 #include <algebraLib/PolynomialInterface.hpp>
 #ifndef REFACTORING_Acsp_AcspSUMMANDSPOLYNOMIAL_HPP__

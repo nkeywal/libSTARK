@@ -6,9 +6,9 @@
  * =====================================================================================
  */
 #include "lightCircLib/lightCircPoly.hpp"
-#include <languages/Acsp/AcspWitnessChecker.hpp>
-#include <common/Algebra/LinearSpace.hpp>
-#include <common/Infrastructure/Infrastructure.hpp>
+#include <../languages/Acsp/AcspWitnessChecker.hpp>
+#include <../common/Algebra/LinearSpace.hpp>
+#include <../common/Infrastructure/Infrastructure.hpp>
 #include <algebraLib/UnivariatePolynomialGeneral.hpp>
 #include <gtest/gtest.h>
 #include <cstdlib>

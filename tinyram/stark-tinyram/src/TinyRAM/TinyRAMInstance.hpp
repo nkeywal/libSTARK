@@ -16,16 +16,16 @@
 #include <vector>
 #include <string>
 #include <cstdint>
-#include "TinyRAM/TinyRAMDefinitions.hpp"
-#include "common/Utils/ErrorHandling.hpp"
+#include "../TinyRAM/TinyRAMDefinitions.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
 #include <algorithm>
 #include <math.h>
 #include <algebraLib/FieldElement.hpp>
 #include <algebraLib/CircuitPolynomial.hpp>
 #include <algebraLib/variable.hpp>
-#include <gadgetlib/infrastructure.hpp>
-#include <gadgetlib/common_use.hpp>
-#include <gadgetlib/protoboard.hpp>
+#include <../gadgetlib/infrastructure.hpp>
+#include <../gadgetlib/common_use.hpp>
+#include <../gadgetlib/protoboard.hpp>
 
 using gadgetlib::Opcode;
 using gadgetlib::Log2ceil;

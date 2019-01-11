@@ -1,9 +1,9 @@
 #include "verifier.hpp"
 #include "common_details/common.hpp"
-#include "common/Utils/ErrorHandling.hpp"
-#include "common/Infrastructure/Infrastructure.hpp"
-#include "common/Utils/TaskReporting.hpp"
-#include "reductions/BairToAcsp/BairToAcsp.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
+#include "../common/Utils/TaskReporting.hpp"
+#include "../reductions/BairToAcsp/BairToAcsp.hpp"
 #include <algebraLib/PolynomialDegree.hpp>
 
 #include <string>

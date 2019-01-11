@@ -14,8 +14,8 @@
 #include <memory>
 #include <math.h>
 #include <stdexcept>
-#include <gadgetlib/gadget.hpp>
-#include <gadgetlib/common_use.hpp>
+#include <../gadgetlib/gadget.hpp>
+#include <../gadgetlib/common_use.hpp>
 #include <algebraLib/variable_operators.hpp>
 #include <algebraLib/CircuitPolynomial.hpp>
 #include <iostream>

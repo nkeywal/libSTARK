@@ -1,6 +1,6 @@
 #include "witnessReduction.hpp"
 #include "../Routing/LongSymmetricDeBruijnNetwork.hpp"
-#include "common/Utils/TaskReporting.hpp"
+#include "../common/Utils/TaskReporting.hpp"
 
 #include <vector>
 

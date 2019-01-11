@@ -8,7 +8,7 @@
 #ifndef _COMMON_BairToACCSP_COMMONDEFINITIONS_HPP_
 #define _COMMON_BairToACCSP_COMMONDEFINITIONS_HPP_
 
-#include "languages/Bair/BairInstance.hpp"
+#include "../languages/Bair/BairInstance.hpp"
 #include <algebraLib/UnivariatePolynomialGeneral.hpp>
 
 namespace libstark{

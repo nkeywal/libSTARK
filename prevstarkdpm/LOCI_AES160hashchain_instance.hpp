@@ -2,7 +2,7 @@
 #define __ACSP_FOR_AES160LOCIhashchain_INSTANCE_HPP__
 
 #include "LOCI_AES160hashchain.hpp"
-#include "languages/Bair/ConstraintsSys.hpp"
+#include "../languages/Bair/ConstraintsSys.hpp"
 
 namespace stark_dpm{
 namespace ACSP_FOR_AES160LOCIhashchain{

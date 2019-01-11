@@ -1,5 +1,5 @@
 #include "LongDeBruijnPermutationNet.hpp"
-#include "common/Infrastructure/Infrastructure.hpp"
+#include "../common/Infrastructure/Infrastructure.hpp"
 
 using Infrastructure::CEIL;
 using Infrastructure::Log2;

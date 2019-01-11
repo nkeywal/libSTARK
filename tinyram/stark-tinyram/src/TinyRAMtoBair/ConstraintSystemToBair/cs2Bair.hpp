@@ -1,12 +1,12 @@
 #ifndef _COMMON_CONSTRAINTSLIB2_CONSTRAINTSYSTEMTOBair_cs2Bair_HPP_
 #define _COMMON_CONSTRAINTSLIB2_CONSTRAINTSYSTEMTOBair_cs2Bair_HPP_
 
-#include "gadgetlib/common_use.hpp"
-#include "TinyRAMtoBair/RamToContraintSystem/transitionFunction.hpp"
-#include "TinyRAMtoBair/RamToContraintSystem/transitionFunction.hpp"
-#include <languages/Bair/ConstraintsSys.hpp>
-#include <languages/Bair/BairWitness.hpp>
-#include <languages/Bair/BairInstance.hpp>
+#include "../gadgetlib/common_use.hpp"
+#include "../TinyRAMtoBair/RamToContraintSystem/transitionFunction.hpp"
+#include "../TinyRAMtoBair/RamToContraintSystem/transitionFunction.hpp"
+#include <../languages/Bair/ConstraintsSys.hpp>
+#include <../languages/Bair/BairWitness.hpp>
+#include <../languages/Bair/BairInstance.hpp>
 
 
 

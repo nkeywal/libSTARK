@@ -1,6 +1,6 @@
 #include "proofs.hpp"
-#include "common/Utils/TaskReporting.hpp"
-#include "common/Utils/ErrorHandling.hpp"
+#include "../common/Utils/TaskReporting.hpp"
+#include "../common/Utils/ErrorHandling.hpp"
 
 namespace libstark{
 namespace Protocols{

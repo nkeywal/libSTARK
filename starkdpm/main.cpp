@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include <regex>
-#include <protocols/protocol.hpp>
+#include <../protocols/protocol.hpp>
 //#include <languages/Bair/BairWitnessChecker.hpp>
 #include "AES160hashcLOCI.hpp"
 
