@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-project(libSTARK)
+project(starklib)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fopenmp")
@@ -101,7 +101,7 @@ add_library(FFT
         algebra/FFT/src/Polynomials.h
         )
 
-add_library(libstark
+add_library(starklib
         libstark/src/common/Algebra/FieldElementPredicate.hpp
         libstark/src/common/Algebra/FiniteSetInterface.hpp
         libstark/src/common/Algebra/LinearSpace.cpp
@@ -230,7 +230,7 @@ add_library(gadgetlib
 #        tinyram/gadgetlib/gadgetlib/tests/variable_UTEST.cpp
 #        )
 
-add_executable(libstark-tests
+add_executable(starklib-tests
         libstark-tests/BairToAcsp/AcspSummandsPolynomial_UTEST.cpp
         libstark-tests/BairToAcsp/boundaryConstraints_UTEST.cpp
         libstark-tests/BairToAcsp/constraints_UTEST.cpp
@@ -314,15 +314,15 @@ target_link_libraries(algebralib-tests FFT)
 target_link_libraries(algebralib-tests gtest)
 target_link_libraries(algebralib-tests gomp)
 
-target_link_libraries(libstark-tests libstark)
-target_link_libraries(libstark-tests gadgetlib)
-target_link_libraries(libstark-tests algebralib)
-target_link_libraries(libstark-tests FFT)
-target_link_libraries(libstark-tests gomp)
-target_link_libraries(libstark-tests gtest)
+target_link_libraries(starklib-tests starklib)
+target_link_libraries(starklib-tests gadgetlib)
+target_link_libraries(starklib-tests algebralib)
+target_link_libraries(starklib-tests FFT)
+target_link_libraries(starklib-tests gomp)
+target_link_libraries(starklib-tests gtest)
 
 target_link_libraries(stark-tinyram-tests tinyramlib)
-target_link_libraries(stark-tinyram-tests libstark)
+target_link_libraries(stark-tinyram-tests starklib)
 target_link_libraries(stark-tinyram-tests gadgetlib)
 target_link_libraries(stark-tinyram-tests algebralib)
 target_link_libraries(stark-tinyram-tests FFT)
@@ -330,19 +330,19 @@ target_link_libraries(stark-tinyram-tests gomp)
 target_link_libraries(stark-tinyram-tests gtest)
 
 target_link_libraries(stark-tinyram tinyramlib)
-target_link_libraries(stark-tinyram libstark)
+target_link_libraries(stark-tinyram starklib)
 target_link_libraries(stark-tinyram gadgetlib)
 target_link_libraries(stark-tinyram algebralib)
 target_link_libraries(stark-tinyram FFT)
 target_link_libraries(stark-tinyram gomp)
 
-target_link_libraries(prevstarkdpm libstark)
+target_link_libraries(prevstarkdpm starklib)
 target_link_libraries(prevstarkdpm gadgetlib)
 target_link_libraries(prevstarkdpm algebralib)
 target_link_libraries(prevstarkdpm FFT)
 target_link_libraries(prevstarkdpm gomp)
 
-target_link_libraries(starkdpm libstark)
+target_link_libraries(starkdpm starklib)
 target_link_libraries(starkdpm gadgetlib)
 target_link_libraries(starkdpm algebralib)
 target_link_libraries(starkdpm FFT)
