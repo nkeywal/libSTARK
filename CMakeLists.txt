@@ -272,7 +272,7 @@ add_library(tinyramlib
         tinyram/stark-tinyram/src/TinyRAMtoBair/RamToContraintSystem/transitionFunction.hpp
         )
 
-add_executable(starkdpm
+add_executable(stark-dpm
         starkdpm/AES160hashcLOCI.hpp
         starkdpm/AES160hashcLOCI_constraints.cpp
         starkdpm/AES160hashcLOCI_EvalPoly.cpp
@@ -283,7 +283,7 @@ add_executable(starkdpm
         starkdpm/main.cpp
         )
 
-add_executable(prevstarkdpm
+add_executable(prevstark-dpm
         prevstarkdpm/LOCI_AES160hashchain.hpp
         prevstarkdpm/LOCI_AES160hashchain__GenWitness.cpp
         prevstarkdpm/LOCI_AES160hashchain_constraints.cpp
@@ -336,14 +336,14 @@ target_link_libraries(stark-tinyram algebralib)
 target_link_libraries(stark-tinyram FFT)
 target_link_libraries(stark-tinyram gomp)
 
-target_link_libraries(prevstarkdpm starklib)
-target_link_libraries(prevstarkdpm gadgetlib)
-target_link_libraries(prevstarkdpm algebralib)
-target_link_libraries(prevstarkdpm FFT)
-target_link_libraries(prevstarkdpm gomp)
+target_link_libraries(prevstark-dpm starklib)
+target_link_libraries(prevstark-dpm gadgetlib)
+target_link_libraries(prevstark-dpm algebralib)
+target_link_libraries(prevstark-dpm FFT)
+target_link_libraries(prevstark-dpm gomp)
 
-target_link_libraries(starkdpm starklib)
-target_link_libraries(starkdpm gadgetlib)
-target_link_libraries(starkdpm algebralib)
-target_link_libraries(starkdpm FFT)
-target_link_libraries(starkdpm gomp)
+target_link_libraries(stark-dpm starklib)
+target_link_libraries(stark-dpm gadgetlib)
+target_link_libraries(stark-dpm algebralib)
+target_link_libraries(stark-dpm FFT)
+target_link_libraries(stark-dpm gomp)
